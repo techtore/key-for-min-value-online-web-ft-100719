@@ -4,7 +4,10 @@
 def key_for_min_value(name_hash)
 name_hash.collect do |key, i|
   if i > key.size 
-    return key
+    return value
+  else 
+    return 
+    nil
   end 
 end
 end
